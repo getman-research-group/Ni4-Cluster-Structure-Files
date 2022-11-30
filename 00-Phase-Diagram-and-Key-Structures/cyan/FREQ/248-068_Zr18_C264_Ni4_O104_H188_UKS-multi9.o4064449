@@ -1,0 +1,185 @@
+
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+ STARTING THE CALCULATION!
+
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+Job Id: 4064449.pbs02
+    Job_Name = 248-068_Zr18_C264_Ni4_O104_H188_UKS-multi9
+    Job_Owner = svicchi@login001.palmetto.clemson.edu
+    resources_used.cpupercent = 0
+    resources_used.cput = 00:00:00
+    resources_used.mem = 0b
+    resources_used.ncpus = 16
+    resources_used.vmem = 9660kb
+    resources_used.walltime = 00:00:00
+    job_state = R
+    queue = c2_single
+    server = pbs02
+    Checkpoint = u
+    ctime = Tue Nov 23 09:45:50 2021
+    Error_Path = login001.palmetto.clemson.edu:/zfs/curium/svicchi/00-MOF/02-CP
+	2K/01-triplet-ni/01-3ni4/00-3ni4-bare/02-building-up/00-bare/03-tight-a
+	dsorption-H-calculations/00-H2-ADSandDIS/16-all-freq-calcs/248-068_Zr18
+	_C264_Ni4_O104_H188_UKS-multi9/248-068_Zr18_C264_Ni4_O104_H188_UKS-mult
+	i9.e4064449
+    exec_host = node1905/0*16
+    exec_vnode = (node1905:ncpus=16:mem=125829120kb:ngpus=0)
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = svicchi@g.clemson.edu
+    mtime = Fri Nov 26 19:19:47 2021
+    Output_Path = login001.palmetto.clemson.edu:/zfs/curium/svicchi/00-MOF/02-C
+	P2K/01-triplet-ni/01-3ni4/00-3ni4-bare/02-building-up/00-bare/03-tight-
+	adsorption-H-calculations/00-H2-ADSandDIS/16-all-freq-calcs/248-068_Zr1
+	8_C264_Ni4_O104_H188_UKS-multi9/248-068_Zr18_C264_Ni4_O104_H188_UKS-mul
+	ti9.o4064449
+    Priority = 0
+    qtime = Fri Nov 26 19:19:43 2021
+    Rerunable = True
+    Resource_List.mem = 120gb
+    Resource_List.mpiprocs = 16
+    Resource_List.ncpus = 16
+    Resource_List.ngpus = 0
+    Resource_List.nodect = 1
+    Resource_List.place = free:shared
+    Resource_List.qcat = c2_workq_qcat
+    Resource_List.select = 1:ncpus=16:mpiprocs=16:mem=120gb:interconnect=fdr
+    Resource_List.walltime = 72:00:00
+    stime = Fri Nov 26 19:19:45 2021
+    session_id = 3545489
+    jobdir = /home/svicchi
+    substate = 42
+    Variable_List = PBS_O_HOME=/home/svicchi,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_LOGNAME=svicchi,
+	PBS_O_PATH=/home/svicchi/.conda/envs/ase-py36/bin:/software/spackages/
+	linux-centos8-x86_64/gcc-8.3.1/anaconda3-5.1.0-c3p5et4cpo7jaiahacqa3pqw
+	hop7tiik/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/pbs
+	/default/bin:/opt/puppetlabs/bin:/opt/dell/srvadmin/bin:/home/svicchi/.
+	local/bin:/home/svicchi/bin:/home/svicchi/bin/vtstscripts/,
+	PBS_O_MAIL=/var/spool/mail/svicchi,PBS_O_SHELL=/bin/bash,
+	PBS_O_WORKDIR=/zfs/curium/svicchi/00-MOF/02-CP2K/01-triplet-ni/01-3ni4
+	/00-3ni4-bare/02-building-up/00-bare/03-tight-adsorption-H-calculations
+	/00-H2-ADSandDIS/16-all-freq-calcs/248-068_Zr18_C264_Ni4_O104_H188_UKS-
+	multi9,PBS_O_SYSTEM=Linux,PBS_O_QUEUE=c2_workq,
+	PBS_O_HOST=login001.palmetto.clemson.edu
+    comment = Job run at Fri Nov 26 at 19:19 on (node1905:ncpus=16:mem=12582912
+	0kb:ngpus=0)
+    etime = Fri Nov 26 19:19:43 2021
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = subcp2k-4_1_0.sh
+    project = _pbs_project_default
+    Submit_Host = login001.palmetto.clemson.edu
+
+
+Currently Loaded Modules:
+  1) openmpi/4.0.4-gcc/8.3.1-ucx   4) fftw/3.3.8-gcc/8.3.1-mpi
+  2) openblas/0.3.10-gcc/8.3.1     5) cp2k/7.1-gcc/8.3.1-mpi
+  3) gmp/6.1.2-gcc/8.3.1
+
+ 
+
+cp: -r not specified; omitting directory '/zfs/curium/svicchi/00-MOF/02-CP2K/01-triplet-ni/01-3ni4/00-3ni4-bare/02-building-up/00-bare/03-tight-adsorption-H-calculations/00-H2-ADSandDIS/16-all-freq-calcs/248-068_Zr18_C264_Ni4_O104_H188_UKS-multi9/zy_testing_coords'
+rm: cannot remove '/scratch2/svicchi/CP2K-4064449.pbs02//README.README': No such file or directory
+cp: cannot stat '/zfs/curium/svicchi/00-MOF/02-CP2K/01-triplet-ni/01-3ni4/00-3ni4-bare/02-building-up/00-bare/03-tight-adsorption-H-calculations/00-H2-ADSandDIS/16-all-freq-calcs/248-068_Zr18_C264_Ni4_O104_H188_UKS-multi9/00-OUTPUT/*.restart': No such file or directory
+cp: cannot stat '/zfs/curium/svicchi/00-MOF/02-CP2K/01-triplet-ni/01-3ni4/00-3ni4-bare/02-building-up/00-bare/03-tight-adsorption-H-calculations/00-H2-ADSandDIS/16-all-freq-calcs/248-068_Zr18_C264_Ni4_O104_H188_UKS-multi9/02-RESTART/*.restart': No such file or directory
+grep: /zfs/curium/svicchi/00-MOF/02-CP2K/01-triplet-ni/01-3ni4/00-3ni4-bare/02-building-up/00-bare/03-tight-adsorption-H-calculations/00-H2-ADSandDIS/16-all-freq-calcs/248-068_Zr18_C264_Ni4_O104_H188_UKS-multi9/02-RESTART/068_Zr18_C264_Ni4_O104_H188_UKS-multi9.inp: No such file or directory
+sed: can't read /zfs/curium/svicchi/00-MOF/02-CP2K/01-triplet-ni/01-3ni4/00-3ni4-bare/02-building-up/00-bare/03-tight-adsorption-H-calculations/00-H2-ADSandDIS/16-all-freq-calcs/248-068_Zr18_C264_Ni4_O104_H188_UKS-multi9/02-RESTART/068_Zr18_C264_Ni4_O104_H188_UKS-multi9.inp: No such file or directory
+./068_Zr18_C264_Ni4_O104_H188_UKS-multi9
+
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+ ENDING THE CALCULATION!
+
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+Job Id: 4064449.pbs02
+    Job_Name = 248-068_Zr18_C264_Ni4_O104_H188_UKS-multi9
+    Job_Owner = svicchi@login001.palmetto.clemson.edu
+    resources_used.cpupercent = 1580
+    resources_used.cput = 355:56:23
+    resources_used.mem = 33825148kb
+    resources_used.ncpus = 16
+    resources_used.vmem = 46824748kb
+    resources_used.walltime = 22:30:07
+    job_state = R
+    queue = c2_single
+    server = pbs02
+    Checkpoint = u
+    ctime = Tue Nov 23 09:45:50 2021
+    Error_Path = login001.palmetto.clemson.edu:/zfs/curium/svicchi/00-MOF/02-CP
+	2K/01-triplet-ni/01-3ni4/00-3ni4-bare/02-building-up/00-bare/03-tight-a
+	dsorption-H-calculations/00-H2-ADSandDIS/16-all-freq-calcs/248-068_Zr18
+	_C264_Ni4_O104_H188_UKS-multi9/248-068_Zr18_C264_Ni4_O104_H188_UKS-mult
+	i9.e4064449
+    exec_host = node1905/0*16
+    exec_vnode = (node1905:ncpus=16:mem=125829120kb:ngpus=0)
+    Hold_Types = n
+    Join_Path = oe
+    Keep_Files = n
+    Mail_Points = abe
+    Mail_Users = svicchi@g.clemson.edu
+    mtime = Sat Nov 27 17:49:54 2021
+    Output_Path = login001.palmetto.clemson.edu:/zfs/curium/svicchi/00-MOF/02-C
+	P2K/01-triplet-ni/01-3ni4/00-3ni4-bare/02-building-up/00-bare/03-tight-
+	adsorption-H-calculations/00-H2-ADSandDIS/16-all-freq-calcs/248-068_Zr1
+	8_C264_Ni4_O104_H188_UKS-multi9/248-068_Zr18_C264_Ni4_O104_H188_UKS-mul
+	ti9.o4064449
+    Priority = 0
+    qtime = Fri Nov 26 19:19:43 2021
+    Rerunable = True
+    Resource_List.mem = 120gb
+    Resource_List.mpiprocs = 16
+    Resource_List.ncpus = 16
+    Resource_List.ngpus = 0
+    Resource_List.nodect = 1
+    Resource_List.place = free:shared
+    Resource_List.qcat = c2_workq_qcat
+    Resource_List.select = 1:ncpus=16:mpiprocs=16:mem=120gb:interconnect=fdr
+    Resource_List.walltime = 72:00:00
+    stime = Fri Nov 26 19:19:45 2021
+    session_id = 3545489
+    jobdir = /home/svicchi
+    substate = 42
+    Variable_List = PBS_O_HOME=/home/svicchi,PBS_O_LANG=en_US.UTF-8,
+	PBS_O_LOGNAME=svicchi,
+	PBS_O_PATH=/home/svicchi/.conda/envs/ase-py36/bin:/software/spackages/
+	linux-centos8-x86_64/gcc-8.3.1/anaconda3-5.1.0-c3p5et4cpo7jaiahacqa3pqw
+	hop7tiik/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/pbs
+	/default/bin:/opt/puppetlabs/bin:/opt/dell/srvadmin/bin:/home/svicchi/.
+	local/bin:/home/svicchi/bin:/home/svicchi/bin/vtstscripts/,
+	PBS_O_MAIL=/var/spool/mail/svicchi,PBS_O_SHELL=/bin/bash,
+	PBS_O_WORKDIR=/zfs/curium/svicchi/00-MOF/02-CP2K/01-triplet-ni/01-3ni4
+	/00-3ni4-bare/02-building-up/00-bare/03-tight-adsorption-H-calculations
+	/00-H2-ADSandDIS/16-all-freq-calcs/248-068_Zr18_C264_Ni4_O104_H188_UKS-
+	multi9,PBS_O_SYSTEM=Linux,PBS_O_QUEUE=c2_workq,
+	PBS_O_HOST=login001.palmetto.clemson.edu
+    comment = Job run at Fri Nov 26 at 19:19 on (node1905:ncpus=16:mem=12582912
+	0kb:ngpus=0)
+    etime = Fri Nov 26 19:19:43 2021
+    run_count = 1
+    eligible_time = 00:00:00
+    Submit_arguments = subcp2k-4_1_0.sh
+    project = _pbs_project_default
+    Submit_Host = login001.palmetto.clemson.edu
+
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=120gb,walltime=72:00:00,ncpus=16
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cput=356:07:16,mem=33825148kb,walltime=22:30:11,ncpus=16,cpupercent=1581,vmem=46824748kb
+ 
+ 
