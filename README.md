@@ -4,5 +4,5 @@ This repository contains all of the XYZ files for the paper *Computational and E
 * [00-Phase-Diagram-and-Key-Structures](https://github.com/getman-research-group/Ni4-Cluster-Structure-Files/tree/main/00-Phase-Diagram-and-Key-Structures): All of the structures appearing on the phase diagram and the key structures based on dPDF
 * [01-Less-Than-100-kJmol-Structures](): All of the structures within 100 kJ/mol of the lowest energy configuration 
 * [02-All-Structures](): All of the structures generated during modeling
-* [03-](): 
+* [03-sample_input_files](): 
 
