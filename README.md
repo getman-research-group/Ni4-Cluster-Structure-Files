@@ -11,5 +11,5 @@ The repository is organized according to the following:
   * FREQUENCY.inp : CP2K input file for a frequency optimization 
   * BASIS_file : basis set file for electronic structures
   * POTENTIALS_file : psuedopotential file for electronic structure 
-  * dftd3.dat : dftb3 paramater file
+  * dftd3.dat : dftb3 parameter file
 
