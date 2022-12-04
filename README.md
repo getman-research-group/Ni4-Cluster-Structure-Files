@@ -7,9 +7,9 @@ The repository is organized according to the following:
 * [01-Less-Than-100-kJmol-Structures](): All of the structures within 100 kJ/mol of the lowest energy configuration 
 * [02-All-Structures](): All of the structures generated during modeling
 * [03-Sample-Input-Files](https://github.com/getman-research-group/Ni4-Cluster-Structure-Files/tree/main/03-Sample-Input-Files): Sample input files for each CP2K calculation
-  * GEO_OPT.inp :
-  * FREQUENCY.inp :
-  * BASIS_file:
-  * POTENTIALS_file :
-  * dftd3.dat :
+  * GEO_OPT.inp : CP2K input file for geometry optimization 
+  * FREQUENCY.inp : CP2K input file for a frequency optimization 
+  * BASIS_file : basis set file for electronic structures
+  * POTENTIALS_file : psuedopotential file for electronic structure 
+  * dftd3.dat : dftb3 paramater file
 
